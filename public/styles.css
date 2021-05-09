@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #302727;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  font-size: 1rem;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #273a3a;
+  border: solid 2px white;
+  color: white;
+  margin: 0.5em;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+.list-container .shopping-list .item {
+  min-width: 70vh;
+  min-height: 10vh;
+}
+.list-container .shopping-list .item li {
+  width: 50%;
+  position: relative;
+  float: left;
+}
+.list-container .shopping-list .item button {
+  width: 20%;
+  position: relative;
+  float: left;
+  margin-left: 0.5em;
+  cursor: pointer;
+}
+
+.create-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.create-item-container h1 {
+  padding-top: 1em;
+}
+.create-item-container form {
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.create-item-container form input {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 0.3em;
+}
+.create-item-container form .submit-container .submit-button {
+  margin: 0.5em;
+  width: 15vh;
+  cursor: pointer;
+}
+
+.create-item-form {
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.create-item-form input {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 0.3em;
+}
+.create-item-form .submit-container .submit-button {
+  margin: 0.5em;
+  width: 50vh;
+  cursor: pointer;
+}
+
+.update-form {
+  padding: 0.5em;
+  display: flex;
+  justify-content: left;
+  min-height: 5vh;
+}
+.update-form .update-input {
+  display: flex;
+  max-height: 2vh;
+}
